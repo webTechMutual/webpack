@@ -2620,11 +2620,6 @@ declare interface Experiments {
 	asyncWebAssembly?: boolean;
 
 	/**
-	 * Support .mjs files as way to define strict ESM file (node.js).
-	 */
-	mjs?: boolean;
-
-	/**
 	 * Allow output javascript files as module source type.
 	 */
 	outputModule?: boolean;
