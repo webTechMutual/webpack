@@ -1886,6 +1886,18 @@ export interface StatsOptions {
 	 */
 	children?: boolean;
 	/**
+	 * Display auxiliary assets in chunk groups.
+	 */
+	chunkGroupAuxiliary?: boolean;
+	/**
+	 * Display children of chunk groups.
+	 */
+	chunkGroupChildren?: boolean;
+	/**
+	 * Limit of assets displayed in chunk groups.
+	 */
+	chunkGroupMaxAssets?: number;
+	/**
 	 * Display all chunk groups with the corresponding bundles.
 	 */
 	chunkGroups?: boolean;
